@@ -8,6 +8,7 @@
 body{
     background-color: black;
     color: aliceblue;
+    overflow-x: hidden;
 }
 .imagem-foto{
     width: 360px;
