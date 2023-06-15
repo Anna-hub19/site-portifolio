@@ -1,0 +1,70 @@
+@media(max-width: 768px){
+    .inicio{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 2px 0px 0px 0px;
+        gap: 10px;
+    }
+    .titulo-inicio{
+        font-size: 50px;
+    }
+    .div-inicio{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+    .div-inicio3{
+        margin: auto;
+    }
+    .formacao{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: auto;
+        gap: 0px;
+    }
+    .titulo-formacao{
+        font-size: 50px;
+    }
+    .div-formacao{
+       text-align: center;
+       margin: auto;
+    }
+    .projetos{
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+    .div-foto{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        margin: 10px;
+        align-items: center;
+    }
+    .titulo-projetos{
+        font-size: 50px;
+    }
+    
+    .rodape{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+       
+    }
+    .titulo-rodape{
+        font-size: 50px;
+    }
+    .imagen-rodape{
+        width: 50px;
+        
+    }
+    .div-rodape{
+        display: flex;
+        gap: 15px;
+        text-align: center;
+        margin: 0px 50px 0px 10px;
+    }
+}
