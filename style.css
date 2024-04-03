@@ -9,17 +9,15 @@ body{
     background-color: black;
     color: aliceblue;
     overflow-x: hidden;
-    width: 100%;
+    width: 100vw;
 }
 .imagem-foto{
-    width: 360px;
-        float: left;
-        width: 500px;
-        height: 400px;
-        margin: 20px;
-        shape-outside: ellipse(20% 50%);
-        clip-path: ellipse(20% 50%);
-        
+    float: left;
+    width: 500px;
+    height: 400px;
+    margin: 20px;
+    shape-outside: ellipse(20% 50%);
+    clip-path: ellipse(20% 50%);
 }
 .inicio{
     display: flex;
@@ -50,6 +48,8 @@ body{
 }
 .div-inicio3{
     margin: 0px 0px 0px 350px;
+    display: flex;
+    align-items: center;
 }
 .imagem-seta{
     width: 50px;
@@ -88,7 +88,7 @@ body{
   font-family: 'Montserrat', sans-serif;
 }
 .paragrafo-formacao{
-    font-size: 20px;
+    font-size: 24px;
     font-family: 'Montserrat', sans-serif;
 }
 .div-foto{
@@ -102,12 +102,14 @@ body{
     width: 300px;
     height: 200px;
     border-radius: 20px;
-    
 }
 .div-projetos{
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
-    gap: 25px;
+    gap: 10px;
+    margin-bottom: 25px;
 }
 .titulo-projetos{
  font-size: 70px;

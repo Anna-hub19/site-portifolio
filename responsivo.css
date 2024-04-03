@@ -14,9 +14,11 @@
         flex-direction: column;
         gap: 20px;
         text-align: center;
+        justify-content: center;
+        align-items: center;
     }
     .div-inicio3{
-        margin: auto;
+       margin: auto;
     }
     .formacao{
         display: flex;
@@ -29,11 +31,19 @@
         font-size: 50px;
     }
     .div-formacao{
-       text-align: center;
-       margin: auto;
+      
+       margin: 0px;
+    }
+    .div-formacao2{
+        gap: 10px;
+        text-align: center;
+        justify-content: center;
+
     }
     .projetos{
         display: flex;
+        align-items: center;
+        justify-content: center;
         flex-direction: column;
         gap: 0px;
     }
@@ -42,6 +52,7 @@
         flex-direction: column;
         gap: 5px;
         margin: 10px;
+        justify-content: center;
         align-items: center;
     }
     .titulo-projetos{
@@ -54,6 +65,7 @@
         flex-direction: column;
        
     }
+
     .titulo-rodape{
         font-size: 50px;
     }
@@ -68,7 +80,10 @@
         margin: 0px 50px 0px 10px;
     }
      .paragrafo-inicio{
-        width: 100%;
+        width: 90%;
         padding: 8px;
+    }
+    html{
+        overflow-x: hidden;
     }
 }
