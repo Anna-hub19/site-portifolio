@@ -133,12 +133,12 @@ body{
     margin: 20px;
 }
 .imagen-rodape{
-    width: 100px;
+    width: 70px;
 }
 .div-rodape{
     display: flex;
     gap: 50px;
-    margin: 0px 0px 0px 400px ;
+    justify-content: center;
 }
 .titulo-rodape{
     margin: 0px 0px 0px 30px;
@@ -148,4 +148,8 @@ body{
 .link-rodape:hover{
     transform: scale(1.2);
 }
+.direitos-autorais{
+    display: flex;
+    justify-content: center;
+ }
 
