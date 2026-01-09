@@ -83,6 +83,12 @@ body{
     color: #868686;
     font-family: 'Roboto', sans-serif;
 }
+.li-formacao-experiencia{
+     margin: 0px 0px 0px 80px;
+    font-size: 17px;
+    color: #868686;
+    font-family: 'Roboto', sans-serif;
+}
 .titulo-formacao{
   font-size: 75px;
   font-family: 'Montserrat', sans-serif;
@@ -152,4 +158,5 @@ body{
     display: flex;
     justify-content: center;
  }
+
 
