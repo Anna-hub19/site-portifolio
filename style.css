@@ -101,7 +101,7 @@ body{
     display: flex;
     gap: 100px;
     align-items: center;
-    margin: 150px;
+    margin: 30px 150px 150px 150px;
 }
 .imagem-projeto{
     float: left;
@@ -121,6 +121,11 @@ body{
  font-size: 70px;
  font-family: 'Montserrat', sans-serif;
  margin: 10px;
+}
+.subtitulo-projetos{
+ font-size: 40px;
+ font-family: 'Montserrat', sans-serif;
+ margin: 50px 150px 0px 150px;
 }
 .paragrafo-projetos{
     font-size: 15px;
